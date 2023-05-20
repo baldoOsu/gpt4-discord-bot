@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.8.0",
+    "path": "^0.12.7",
+    "wokcommands": "^2.1.0"
+  },
+  "name": "ts-bot-template",
+  "version": "1.0.0",
+  "description": "template for a discord bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baldoOsu/ts-bot-template.git"
+  },
+  "author": "Robert Peptan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baldoOsu/ts-bot-template/issues"
+  },
+  "homepage": "https://github.com/baldoOsu/ts-bot-template#readme"
+}
